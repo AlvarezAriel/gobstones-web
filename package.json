@@ -17,7 +17,8 @@
     "dist:all": "node build/builder.js -p all -t all -a all -v",
     "dist:docker": "sh build/docker_build.sh",
     "publish": "node build/builder.js --publish",
-    "test": "echo 'Oops, no tests here... :('"
+    "test": "echo 'Oops, no tests here... :('",
+    "lh": "lighthousebot"
   },
   "engines": {
     "node": ">=7.0.0"
@@ -67,6 +68,7 @@
     "gulp-useref": "^2.1.0",
     "gulp-vulcanize": "^6.0.0",
     "jasmine-core": "^2.4.1",
+    "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
     "merge-stream": "^1.0.0",
     "publish-release": "^1.3.3",
     "require-dir": "^0.3.0",
